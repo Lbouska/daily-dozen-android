@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<resources>
+    <string name="app_name">Denní Dvanáctka</string>
+    <string name="beans">Luštěniny</string>
+    <string name="berries">Bobuloviny</string>
+    <string name="other_fruits">Ovoce</string>
+    <string name="cruciferous_vegetables">Košťálová zelenina</string>
+    <string name="greens">Listová zelenina</string>
+    <string name="other_vegetables">Ostatní zelenina</string>
+    <string name="flaxseeds">Lněné semínko</string>
+    <string name="nuts">Ořechy a semena</string>
+    <string name="spices">Bylinky a koření</string>
+    <string name="whole_grains">Celozrnné obiloviny</string>
+    <string name="beverages">Nápoje</string>
+    <string name="exercise">Pohyb</string>
+    <string name="vitamin_b12">Vitamín B12</string>
+    <string name="serving_sizes">Velikost porce</string>
+    <string name="types">Typy</string>
+    <string name="history">Historie</string>
+    <string name="servings_some">Některé porce</string>
+    <string name="servings_all">Všechny porce</string>
+    <string name="servings">Porce</string>
+    <string name="out_of">kromě</string>
+    <string name="moving_average">Průměr</string>
+    <string name="about">O</string>
+    <string name="about_this_app">O této aplikaci</string>
+    <string name="latest_videos">Poslední videa</string>
+    <string name="url_latest_videos" translatable="false">http://nutritionfacts.org/videos/</string>
+    <string name="title_how_not_to_die" translatable="false">Jak nezemřít</string>
+    <string name="url_how_not_to_die" translatable="false">http://nutritionfacts.org/book/</string>
+    <string name="title_cookbook" translatable="false">Kuchařka</string>
+    <string name="url_cookbook" translatable="false">https://nutritionfacts.org/cookbook/</string>
+    <string name="title_how_not_to_diet" translatable="false">Jak nedietovat</string>
+    <string name="url_how_not_to_diet" translatable="false">https://nutritionfacts.org/how-not-to-diet/</string>
+    <string name="daily_dozen_challenge" translatable="false">Denní dvanáctka - výzva</string>
+    <string name="url_daily_dozen_challenge" translatable="false">https://nutritionfacts.org/daily-dozen-challenge/</string>
+    <string name="donate">Přispět</string>
+    <string name="url_donate" translatable="false">https://nutritionfacts.org/donate/</string>
+    <string name="subscribe">Předplatné</string>
+    <string name="url_subscribe" translatable="false">http://nutritionfacts.org/subscribe/</string>
+    <string name="open_source">Open Source</string>
+    <string name="url_open_source" translatable="false">http://nutritionfacts.org/open-source/</string>
+    <string name="nutritionfacts_title" translatable="false">nutritionfacts.org</string>
+    <string name="url_nutritionfacts" translatable="false">http://nutritionfacts.org</string>
+    <string name="name_john_slavick" translatable="false">John Slavick</string>
+    <string name="url_john_slavick" translatable="false">http://johnslavick.com</string>
+    <string name="library_activeandroid" translatable="false">ActiveAndroid</string>
+    <string name="library_android_iconify" translatable="false">android-iconify</string>
+    <string name="library_eventbus" translatable="false">EventBus</string>
+    <string name="library_likeanimation" translatable="false">LikeAnimation</string>
+    <string name="library_mpandroidchart" translatable="false">MPAndroidChart</string>
+    <string name="url_activeandroid" translatable="false">https://github.com/pardom/ActiveAndroid</string>
+    <string name="url_android_iconify" translatable="false">https://github.com/JoanZapata/android-iconify</string>
+    <string name="url_eventbus" translatable="false">https://github.com/greenrobot/EventBus</string>
+    <string name="url_likeanimation" translatable="false">https://github.com/frogermcs/LikeAnimation/</string>
+    <string name="url_mpandroidchart" translatable="false">https://github.com/PhilJay/MPAndroidChart</string>
+    <string name="permission_needed_to_write_storage">Can’t backup without permission to write to storage</string>
+    <string name="backup_failed">Záloha se nezdařila</string>
+    <string name="restore_failed">Obnova se nezdařila</string>
+    <string name="backup_success">Záloha úspěšná</string>
+    <string name="restore_success">Obnova úspěšná</string>
+    <string name="restore_confirm_title">Obnova a Záloha</string>
+    <string name="restore_confirm_message">Všechna data budou vymazána. Chcete pokračovat?</string>
+    <string name="backup_mimetype" translatable="false">message/rfc822</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="backup">Záloha</string>
+    <string name="food_info">Info o jídle</string>
+    <string name="food_history">Historie jídla</string>
+    <string name="icon_info" translatable="false">{fa-info-circle 12dp @color/gray}</string>
+    <string name="icon_calendar" translatable="false">{fa-calendar 16dp @color/gray_dark}</string>
+    <string name="num_servings_max" translatable="false">24</string>
+    <string name="icon_chart" translatable="false">{fa-bar-chart 20dp @color/gray_dark}</string>
+    <string name="daily_servings_history">Historie denních dávek</string>
+    <string name="no_servings_recorded">Zatím nemáte žádný záznam!</string>
+    <string name="task_backup_title">Záloha</string>
+    <string name="task_restore_title">Obnova ze zálohy</string>
+    <string name="task_calculating_streaks_title">Výpočet</string>
+    <string name="back_to_today">Až do dneška</string>
+    <string name="debug">Debug</string>
+    <string name="debug_clear_data">Smázání všech dat</string>
+    <string name="debug_clear_data_message">Vymažou se všechna data, je to OK?</string>
+    <string name="OK">OK</string>
+    <string name="dialog_streaks_title">Nová možnost - pruhy!</string>
+    <string name="dialog_streaks_message">Vaše databáze bude upgradována, aby mohla obsahovat pruhy..</string>
+    <string name="dialog_no_email_apps_title">Nezadán email</string>
+    <string name="dialog_no_email_apps_message">K záloze je potřeba, abyste měli instalovaný email.</string>
+    <string name="debug_generate_random_data">Generování náhodných dat</string>
+    <string name="debug_generate_full_data">Generování celých dat</string>
+    <string name="debug_generate_data_message">Všechna data budou vymazána. Chcete pokračovat?</string>
+    <string name="debug_show_reminder_notification" translatable="false">Show Reminder Notification</string>
+    <string name="task_generating_random_data">Genererování náhodných dat</string>
+    <string name="task_loading_servings_history_title">Načítání porcí historie</string>
+    <string name="time_scale">Časová osa</string>
+    <string name="history_to_generate">Historie</string>
+    <string name="date_weight_morning" translatable="false">{fa-sun-o 22dp @color/gray_dark}</string>
+    <string name="date_weight_evening" translatable="false">{fa-moon-o 22dp @color/gray_dark}</string>
+    <string name="date_servings_star" translatable="false">{fa-star 24dp @color/gold}</string>
+    <string name="date_servings_star_large" translatable="false">{fa-star 64dp @color/gold}</string>
+    <string name="date_weights_eye_open" translatable="false">{fa-eye 24dp @color/gray_dark}</string>
+    <string name="date_weights_eye_closed" translatable="false">{fa-eye-slash 24dp @color/gray_dark}</string>
+    <string name="date_weights_morning_weight" translatable="false">{fa-square 24dp @color/gray_dark}</string>
+    <string name="date_weights_evening_weight" translatable="false">{fa-check-square 24dp @color/gray_dark}</string>
+    <string name="unchecked" translatable="false">{fa-square 24dp @color/gray_dark}</string>
+    <string name="checked" translatable="false">{fa-check-square 24dp @color/gray_dark}</string>
+    <string name="welcome_to_my_daily_dozen">Vítejte v aplikaci Denní dvanáctka!</string>
+    <string name="activity_welcome_text">Používejte tuto aplikaci každý den ke sledování potravin a rad, které doporučuji pro optimální zdraví a dlouhověkost ve svých knihách Jak nezemřít a Jak nedržet dietu.</string>
+    <string name="dialog_ask_user_to_rate_app_title">Líbí se vám tato aplikace?</string>
+    <string name="dialog_ask_user_to_rate_app_message">POšlete nám zpětnou vazbu v Play Store.</string>
+    <string name="rate_now">Zpětná vazba</string>
+    <string name="not_now">Ne teď</string>
+    <string name="format_version">verze %s</string>
+    <string name="format_num_days">%d dní</string>
+    <string name="daily_reminder_title">Připomínání Denní dvanáctka</string>
+    <string name="daily_reminder_text">Vyplňte intervence až do dneška</string>
+    <string name="daily_reminder_settings">Parametry denního připomínání</string>
+    <string name="enable_daily_reminder">Spustit denní připomínání</string>
+    <string name="remind_me_at">Připomeň mi v:</string>
+    <string name="videos">Videa</string>
+    <string name="units">Jednotky</string>
+    <string name="imperial">Imperiální</string>
+    <string name="metric">Metrické</string>
+    <string name="error_cannot_handle_url">Nelze otevřít url. nainstalujete prohlížeč</string>
+    <string name="channel_reminders_name">Připomínka</string>
+    <string name="twenty_one_tweaks">21 Intervencí hubnutí</string>
+    <string name="tweaks">Intervence</string>
+    <string name="daily_tweaks_history">Historie 21 intervencí</string>
+    <string name="weight_history">Historie váhy</string>
+    <string name="no_weights_recorded">Zatím jste nezadali váhu!</string>
+    <string name="task_loading_weights_history_title">Načítání historie váhy</string>
+    <string name="morning">Ráno</string>
+    <string name="evening">Večer</string>
+    <string name="meal_water">Voda před jídlem</string>
+    <string name="meal_negcal">Předplňte se potravinami se zápornou kalorickou hodnotou</string>
+    <string name="meal_vinegar">Ocet/citron (2 lžičky s jídlem)</string>
+    <string name="meal_undistracted">Pozornost na jídlo</string>
+    <string name="meal_twentyminutes">Jídlo 20 minut</string>
+    <string name="daily_blackcumin">Černý kmín (¼ lžičky)</string>
+    <string name="daily_garlic">Česnek  (¼ lžičky / stroužek)</string>
+    <string name="daily_ginger">Zázvor (1 lžička)</string>
+    <string name="daily_nutriyeast">Lahůdkové droždí (2 lžičky)</string>
+    <string name="daily_cumin">Římský kmín (½ lžičky 2x)</string>
+    <string name="daily_greentea">Bylinkový čaj (3 cups)</string>
+    <string name="daily_hydrate">Pitný režim</string>
+    <string name="daily_deflourdiet">Celá zrna, ne jídla z mouky</string>
+    <string name="daily_frontload">V první půli dne jezte více</string>
+    <string name="daily_timerestrict">Čas na jídlo (12 hodin)</string>
+    <string name="exercise_timing">Pohyb před jídlem</string>
+    <string name="weigh_twice">Vážení ráno, večer</string>
+    <string name="complete_intentions">Implementační záměry</string>
+    <string name="nightly_fast">Po 19:00 už nejzte</string>
+    <string name="nightly_sleep">Dostatek spánku (7 hodin)</string>
+    <string name="nightly_trendelenburg">3 jídla - nejezte nic mezi</string>
+    <string name="debug_generate_weight_data">Generování dat vážení</string>
+    <string name="average_weight_on_day">Průměrná váha dne</string>
+    <string name="meal_water_short">Předplňte se vodou</string>
+    <string name="meal_negcal_short">Předplňte se jídlem s negativními kaloriemi</string>
+    <string name="meal_vinegar_short">Ocet/citron (2 lžičky s jídlem)</string>
+    <string name="meal_undistracted_short">Pozornost na jídlo</string>
+    <string name="meal_twentyminutes_short">Jídlo 20 minut</string>
+    <string name="daily_blackcumin_short">Černý kmín (Nigella sativa) (¼ lžička)</string>
+    <string name="daily_garlic_short">Česnek (¼ lžičky / stroužek)</string>
+    <string name="daily_ginger_short">Zázvor (1 lžička)</string>
+    <string name="daily_nutriyeast_short">Lahůdkové droždí (2 lžičky)</string>
+    <string name="daily_cumin_short">Římský kmín (Cuminum cyminum) (½ lžičky 2x)</string>
+    <string name="daily_greentea_short">Bylinkový čaj (3 šálky)</string>
+    <string name="daily_hydrate_short">Pitný režim</string>
+    <string name="daily_deflourdiet_short">Celá zrna, ne jídla z mouky</string>
+    <string name="daily_frontload_short">V první půli dne jezte více</string>
+    <string name="daily_timerestrict_short">Čas na jídlo 12 hodin</string>
+    <string name="exercise_timing_short">Pohyb před jídlem</string>
+    <string name="weigh_twice_short">Važte se ráno a večer</string>
+    <string name="complete_intentions_short">Implementační záměry</string>
+    <string name="nightly_fast_short">Po 19:00 už nejzte</string>
+    <string name="nightly_sleep_short">Dostatek spánku (7 hodin)</string>
+    <string name="nightly_trendelenburg_short">Jezte jen 3 jídla denně</string>
+    <string name="meal_water_text">Načasujte si před každým jídlem šálek studené neochucené vody na zrychlení metabolismu</string>
+    <string name="meal_negcal_text">Jako první chod začněte každé jídlo jablkem nebo zelným salátem nebo zeleninou nebo polévkou s méně než 100 kaloriemi na šálek.</string>
+    <string name="meal_vinegar_text">Nikdy nepijte kyselé rovnou. Místo toho dochucujte jídla nebo si udělejte zálivku na salát z jablečného nebo balzamikového octu. Nepijte ocet nikdy přímo, abyste ochránili zubní sklovinu. Po každém jídle si vyčistěte zuby.</string>
+    <string name="meal_undistracted_text">Nejezte při sledování televize ani nepoužívejte mobil. Připravte si každé jídlo tak, abyste ho mohli sníst bez rušení.</string>
+    <string name="meal_twentyminutes_text">Pořádně rozžvýkejte každé sousto, zvyšte počet žvýkání, snižte velikost sousta a rychlost jedení. Desítky studií prokázaly, že bez ohledu na to, jak zvýšíme dobu, po kterou je jídlo v našich ústech, může to vést k nižšímu kalorickému příjmu. Prodlužte tedy dobu jídla alespoň na dvacet minut, aby se vaše přirozené signály sytosti mohly plně projevit. Jak? Třeba i výběrem potravin, jejichž konzumace trvá déle, a jejich konzumací způsobem, který prodlouží dobu, po kterou zůstanou v ústech.</string>
+    <string name="daily_blackcumin_text">Jak je uvedeno v části Potlačení chuti k jídlu, systematický přehled a metaanalýza randomizovaných, kontrolovaných studií hubnutí zjistila, že asi čtvrtina čajové lžičky prášku z černého kmínu každý den snižuje index tělesné hmotnosti během několika měsíců. Černý kmín se liší od běžného kmínu.</string>
+    <string name="daily_garlic_text">Randomizované, dvojitě zaslepené, placebem kontrolované studie zjistily, že jen čtvrt čajové lžičky česnekového prášku denně může snížit tělesný tuk za cenu možná dvou centů denně. Stejně funguje stroužek česneku</string>
+    <string name="daily_ginger_text">Randomizované kontrolované studie zjistily, že ¼ čajové lžičky až 1½ čajové lžičky denně mletého zázvoru významně snížilo tělesnou hmotnost za pouhé haléře denně. Může to být stejně snadné jako zamíchání mletého koření do šálku horké vody. Poznámka: Zázvor může působit lépe ráno než večer. Čaj Chai je chutný způsob, jak spojit triky zeleného čaje a zázvoru do jediného nápoje. Alternativně, pro aktivaci BAT, můžete do své každodenní stravy přidat jednu syrovou půl lžičky prášku z červené papriky.</string>
+    <string name="daily_nutriyeast_text">Dvě čajové lžičky pekařského, pivovarského nebo lahůdkového droždí obsahují zhruba takové množství beta 1,3/1,6 glukanů, jaké bylo nalezeno v randomizovaných, dvojitě zaslepených, placebem kontrolovaných klinických studiích pro usnadnění hubnutí.</string>
+    <string name="daily_cumin_text">Ženy s nadváhou byly náhodně vybrány tak, aby si k obědu a večeři přidaly půl lžičky kmínu, porazily kontrolní skupinu zhubnutím o čtyři kila navíc a centimetr méně v pasu. Existují také důkazy na podporu použití koření šafránu, ale špetka denně by stála dolar, zatímco lžička kmínu stojí méně než deset centů.</string>
+    <string name="daily_greentea_text">Pijte tři šálky denně mezi jídly (počkejte alespoň hodinu po jídle, abyste nenarušili vstřebávání železa). Nekonzumujte velké množství kofeinu šest hodin před spaním. Nejlepší je pít čaj bez sladidla.</string>
+    <string name="daily_hydrate_text">Toto políčko zaškrtněte, pokud se vaše moč nikdy nezdá tmavší než světle žlutá.\n\nNaplánujte si příjem devíti pohárů neslazených nápojů denně (voda a bylinkový čaj).\n\nPokud máte problémy se srdcem nebo ledvinami, vůbec nezvyšujte příjem tekutin, dokud si nejprve nepromluvíte se svým lékařem. \n\nPamatujte, že dietní soda může být bez kalorií, ale není bez následků, jak jsme se dozvěděli v sekci Nízký obsah přidaného cukru.</string>
+    <string name="daily_deflourdiet_text">Zaškrtněte toto políčko každý den, když vaše celozrnné porce jsou ve formě celých zrn. Rozdrcení celých zrn připravuje naše mikrobiomy o škrob, který by se jinak dostal do našeho tlustého střeva v uzavřených v neporušených buněčných stěnách.</string>
+    <string name="daily_frontload_text">Rozdělte jídla tak, abyste jedli větší množství kalorií v první polovině dne. Má to své metabolické výhody. Udělejte snídani nebo oběd vaším největším jídlem dne. Tři jídla ve stylu krále/prince/chudoby…</string>
+    <string name="daily_timerestrict_text">Omezte jedení na denní dobu, kterou si zvolíte, do dvanácti hodin, které můžete důsledně dodržovat, sedm dní v týdnu. Vzhledem k cirkadiánním výhodám snížení večerního příjmu jídla by toto okno mělo skončit před 19:00.</string>
+    <string name="exercise_timing_text">Doporučení Daily Dozen pro optimální trvání cvičení pro dlouhověkost je devadesát minut středně intenzivní aktivity denně, což je také optimální délka cvičení pro hubnutí. Pohyb kdykoli je dobrý, a čím více, tím lépe. Ale může být výhodou pohyb nebo cvičení nalačno, alespoň několik hodin po posledním jídle. Nejlepší tedy před snídaní, ale pokud jste to správně načasovali, mohli byste cvičit v poledne před pozdějším obědem nebo před večeří. Toto je načasování pro nediabetiky. Diabetici a prediabetici by naopak měli začít cvičit třicet minut po začátku jídla a ideálně na hodinu, abyste předešli vrcholu hladiny cukru v krvi. Pokud byste si měli vybrat jediné jídlo, po kterém budete cvičit, byla by to večeře, kvůli cirkadiánnímu rytmu kontroly krevního cukru, který během dne slábne. V ideálním případě by však snídaně měla být největším jídlem dne a po ní byste měli cvičit – nebo ještě lépe po každém jídle.</string>
+    <string name="weigh_twice_text">Pravidelné vlastní vážení je považováno za klíčové pro dlouhodobou kontrolu hmotnosti, ale neexistují dostatečné důkazy pro podporu konkrétní frekvence vážení. Moje doporučení je založeno na jedné studii, která zjistila, že dvakrát denně – po probuzení a těsně před spaním – se zdálo být lepší než jednou denně (asi šest proti dvěma kilům úbytku hmotnosti za dvanáct týdnů).</string>
+    <string name="complete_intentions_text">Každý měsíc překontrolujte své implementační záměry – plány „když X, pak Y“. Jedná se o změnu konkrétního chování v konkrétním kontextu – a každý z nich zaškrtněte, když jej daný den splníte. Implementační záměry mají velkou sílu pro získávání nových zdravějších návyků.</string>
+    <string name="nightly_fast_text">Vzhledem k našim cirkadiánním rytmům se z jídla konzumovaného v noci uloží více tuků než z úplně stejného jídla, které se konzumuje dříve během dne. Jedná se tedy o noční půst každou noc po dobu nejméně dvanácti hodin počínaje 19:00. Čím méně kalorií sníte po západu slunce, tím lépe.</string>
+    <string name="nightly_sleep_text">Toto políčko zaškrtněte, pokud spíte alespoň sedm hodin pravidelným spánkem.</string>
+    <string name="nightly_trendelenburg_text">Jezte maximálně tři jídla denně. Tedy nejezte nic mezi jídly. Nic, co se tráví, tedy ani slazené nebo jiné kalorické nápoje. Vyřaďte svačiny, nejsou potřeba. \n\nAlternativně a pro zrychlení hubnutí můžete jíst jen dvě jídla denně. Ideálně okolo 9:00 a 16:00, v závislosti na vašem denním režimu. Čím dříve začne váš noční půst, tím větší benefity získáte.</string>
+    <!--
+    NOTE: These strings are used to created the url to take the user to the overall food videos page.
+    These strings are to not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
+    -->
+    <string name="food_info_videos_beans" translatable="false">beans</string>
+    <string name="food_info_videos_berries" translatable="false">berries</string>
+    <string name="food_info_videos_fruits" translatable="false">fruit</string>
+    <string name="food_info_videos_cruciferous" translatable="false">cruciferous-vegetables</string>
+    <string name="food_info_videos_greens" translatable="false">greens</string>
+    <string name="food_info_videos_vegetables" translatable="false">vegetables</string>
+    <string name="food_info_videos_flaxseeds" translatable="false">flax-seeds</string>
+    <string name="food_info_videos_nuts" translatable="false">nuts</string>
+    <string name="food_info_videos_spices" translatable="false">spices</string>
+    <string name="food_info_videos_whole_grains" translatable="false">grains</string>
+    <string name="food_info_videos_beverages" translatable="false">beverages</string>
+    <string name="food_info_videos_exercise" translatable="false">exercise</string>
+    <string name="food_info_videos_vitamin_b12" translatable="false">vitamin-b12</string>
+    <string name="food_info_videos_vitamin_d" translatable="false">vitamin-d-supplements</string>
+    <string name="food_info_videos_omega3" translatable="false">omega-3-fatty-acids</string>
+    <string name="weight">Weight</string>
+    <string name="tweak_group_meal">At Each Meal</string>
+    <string name="tweak_group_daily">Every Day</string>
+    <string name="tweak_group_dailydoses">Take your daily doses</string>
+    <string name="tweak_group_nightly">Every Night</string>
+    <string name="about_tweak">About Tweak</string>
+    <!--
+    NOTE: These strings should never be translated from English
+    These strings are used as the canonical names for the different foods and make it easy to switch between languages
+    -->
+    <string-array name="food_id_names" translatable="false">
+        <item>Beans</item>
+        <item>Berries</item>
+        <item>Other Fruits</item>
+        <item>Cruciferous Vegetables</item>
+        <item>Greens</item>
+        <item>Other Vegetables</item>
+        <item>Flaxseeds</item>
+        <item>Nuts</item>
+        <item>Spices</item>
+        <item>Whole Grains</item>
+        <item>Beverages</item>
+        <item>Exercise</item>
+        <item>Vitamin B12</item>
+    </string-array>
+    <string-array name="food_names" translatable="false">
+        <item>@string/beans</item>
+        <item>@string/berries</item>
+        <item>@string/other_fruits</item>
+        <item>@string/cruciferous_vegetables</item>
+        <item>@string/greens</item>
+        <item>@string/other_vegetables</item>
+        <item>@string/flaxseeds</item>
+        <item>@string/nuts</item>
+        <item>@string/spices</item>
+        <item>@string/whole_grains</item>
+        <item>@string/beverages</item>
+        <item>@string/exercise</item>
+        <item>@string/vitamin_b12</item>
+    </string-array>
+    <integer-array name="food_quantities" translatable="false">
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="tweak_id_names" translatable="false">
+        <item>Meal Water</item>
+        <item>Meal NegCal</item>
+        <item>Meal Vinegar</item>
+        <item>Meal Undistracted</item>
+        <item>Meal 20 Minutes</item>
+        <item>Daily Black Cumin</item>
+        <item>Daily Garlic</item>
+        <item>Daily Ginger</item>
+        <item>Daily NutriYeast</item>
+        <item>Daily Cumin</item>
+        <item>Daily Green Tea</item>
+        <item>Daily Hydrate</item>
+        <item>Daily Deflour Diet</item>
+        <item>Daily Front-Load</item>
+        <item>Daily Time-Restrict</item>
+        <item>Exercise Timing</item>
+        <item>Weigh Twice</item>
+        <item>Complete Intentions</item>
+        <item>Nightly Fast</item>
+        <item>Nightly Sleep</item>
+        <item>Nightly Trendelenburg</item>
+    </string-array>
+    <string-array name="tweak_names" translatable="false">
+        <item>@string/meal_water</item>
+        <item>@string/meal_negcal</item>
+        <item>@string/meal_vinegar</item>
+        <item>@string/meal_undistracted</item>
+        <item>@string/meal_twentyminutes</item>
+        <item>@string/daily_blackcumin</item>
+        <item>@string/daily_garlic</item>
+        <item>@string/daily_ginger</item>
+        <item>@string/daily_nutriyeast</item>
+        <item>@string/daily_cumin</item>
+        <item>@string/daily_greentea</item>
+        <item>@string/daily_hydrate</item>
+        <item>@string/daily_deflourdiet</item>
+        <item>@string/daily_frontload</item>
+        <item>@string/daily_timerestrict</item>
+        <item>@string/exercise_timing</item>
+        <item>@string/weigh_twice</item>
+        <item>@string/complete_intentions</item>
+        <item>@string/nightly_fast</item>
+        <item>@string/nightly_sleep</item>
+        <item>@string/nightly_trendelenburg</item>
+    </string-array>
+    <integer-array name="tweak_amounts" translatable="false">
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="about_text_lines">
+        <item>This app was created by John Slavick.</item>
+        <item />
+        <item>The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.</item>
+        <item />
+        <item>Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.</item>
+    </string-array>
+    <string-array name="backup_instructions_lines">
+        <item>Následujete tyto instrukce pro vytvoření zálohy dat aplikace Denní dvanáctky Dozen</item>
+        <item />
+        <item>1. Aplikace Denní dvanáctka musí být nainstalována na vašem Android mobilu. Můžete si ji nahrát z odkazu:: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen</item>
+        <item />
+        <item>2. Tap on the backup file attached to this email.</item>
+        <item />
+        <item>3. Select Open with Daily Dozen</item>
+    </string-array>
+    <string-array name="servings_time_scale_choices">
+        <item>Den</item>
+        <item>Měsíc</item>
+        <item>Rok</item>
+    </string-array>
+    <string-array name="history_to_generate_choices">
+        <item>1 měsíc</item>
+        <item>3 měsíce</item>
+        <item>6 měsíců</item>
+        <item>1 rok</item>
+        <item>2 roky</item>
+        <item>5 let</item>
+    </string-array>
+    <string-array name="food_info_types_beans">
+        <item>Black beans</item>
+        <item>Black-eyed peas</item>
+        <item>Butter beans</item>
+        <item>Cannellini beans</item>
+        <item>Chickpeas/Garbanzo Beans</item>
+        <item>Edamame</item>
+        <item>English peas</item>
+        <item>Great northern beans</item>
+        <item>Kidney beans</item>
+        <item>Lentils (beluga, french, and red varieties)</item>
+        <item>Miso</item>
+        <item>Navy beans</item>
+        <item>Pinto beans</item>
+        <item>Small red beans</item>
+        <item>Split peas (yellow or green)</item>
+        <item>Tempeh</item>
+    </string-array>
+    <string-array name="food_info_types_berries">
+        <item>Acai berries</item>
+        <item>Barberries</item>
+        <item>Blackberries</item>
+        <item>Blueberries</item>
+        <item>Cherries (sweet or tart)</item>
+        <item>Concord grapes</item>
+        <item>Cranberries</item>
+        <item>Goji berries</item>
+        <item>Kumquats</item>
+        <item>Mulberries</item>
+        <item>Raspberries (black or red)</item>
+        <item>Strawberries</item>
+    </string-array>
+    <string-array name="food_info_types_other_fruits">
+        <item>Apples</item>
+        <item>Apricots</item>
+        <item>Avocados</item>
+        <item>Bananas</item>
+        <item>Cantaloupe</item>
+        <item>Clementines</item>
+        <item>Dates</item>
+        <item>Figs</item>
+        <item>Grapefruit</item>
+        <item>Honeydew</item>
+        <item>Kiwifruit</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Lychees</item>
+        <item>Mangos</item>
+        <item>Nectarines</item>
+        <item>Oranges</item>
+        <item>Papaya</item>
+        <item>Passion fruit</item>
+        <item>Peaches</item>
+        <item>Pears</item>
+        <item>Pineapple</item>
+        <item>Plums (especially black plums)</item>
+        <item>Pluots</item>
+        <item>Pomegranates</item>
+        <item>Prunes</item>
+        <item>Tangerines</item>
+        <item>Watermelon</item>
+    </string-array>
+    <string-array name="food_info_types_cruciferous_vegetables">
+        <item>Arugula</item>
+        <item>Bok choy</item>
+        <item>Broccoli (incl. Romanesco)</item>
+        <item>Brussels sprouts</item>
+        <item>Cabbage (green, red and savoy)</item>
+        <item>Cauliflower (white, green, orange and purple)</item>
+        <item>Collard greens</item>
+        <item>Horseradish</item>
+        <item>Kale (black, green, and red)</item>
+        <item>Kohlrabi (green and purple)</item>
+        <item>Mustard greens</item>
+        <item>Radishes</item>
+        <item>Turnip greens</item>
+        <item>Watercress</item>
+    </string-array>
+    <string-array name="food_info_types_greens">
+        <item>Arugula</item>
+        <item>Beet greens</item>
+        <item>Collard greens</item>
+        <item>Kale (black, green, and red)</item>
+        <item>Mesclun mix (assorted young salad greens)</item>
+        <item>Mustard greens</item>
+        <item>Sorrel</item>
+        <item>Spinach</item>
+        <item>Swiss chard</item>
+        <item>Turnip greens</item>
+    </string-array>
+    <string-array name="food_info_types_other_vegetables">
+        <item>Artichokes</item>
+        <item>Asparagus</item>
+        <item>Beets</item>
+        <item>Bell peppers</item>
+        <item>Carrots</item>
+        <item>Corn</item>
+        <item>Garlic</item>
+        <item>Mushrooms (button, oyster, portobello, and shiitake)</item>
+        <item>Okra</item>
+        <item>Onions</item>
+        <item>Purple potatoes</item>
+        <item>Pumpkin</item>
+        <item>Sea vegetables (arame, dulse, and nori)</item>
+        <item>Snap peas</item>
+        <item>Squash (delicata, summer, and spaghetti squash varieties)</item>
+        <item>Sweet potatoes/yams</item>
+        <item>Tomatoes</item>
+        <item>Zucchini</item>
+    </string-array>
+    <string-array name="food_info_types_flaxseeds">
+        <item>Brown flaxseeds</item>
+        <item>Golden flaxseeds</item>
+    </string-array>
+    <string-array name="food_info_types_nuts">
+        <item>Almonds</item>
+        <item>Brazil nuts</item>
+        <item>Cashews</item>
+        <item>Chia seeds</item>
+        <item>Hazelnuts</item>
+        <item>Hemp seeds</item>
+        <item>Macadamia nuts</item>
+        <item>Pecans</item>
+        <item>Pistachios</item>
+        <item>Pumpkin seeds</item>
+        <item>Sesame seeds</item>
+        <item>Sunflower seeds</item>
+        <item>Walnuts</item>
+    </string-array>
+    <string-array name="food_info_types_spices">
+        <item>Allspice</item>
+        <item>Barberries</item>
+        <item>Basil</item>
+        <item>Bay leaves</item>
+        <item>Cardamom</item>
+        <item>Chili powder</item>
+        <item>Cilantro</item>
+        <item>Cinnamon</item>
+        <item>Cloves</item>
+        <item>Coriander</item>
+        <item>Cumin</item>
+        <item>Curry powder</item>
+        <item>Dill</item>
+        <item>Fenugreek</item>
+        <item>Garlic</item>
+        <item>Ginger</item>
+        <item>Horseradish</item>
+        <item>Lemongrass</item>
+        <item>Marjoram</item>
+        <item>Mustard powder</item>
+        <item>Nutmeg</item>
+        <item>Oregano</item>
+        <item>Smoked paprika</item>
+        <item>Parsley</item>
+        <item>Pepper</item>
+        <item>Peppermint</item>
+        <item>Rosemary</item>
+        <item>Saffron</item>
+        <item>Sage</item>
+        <item>Thyme</item>
+        <item>Turmeric</item>
+        <item>Vanilla</item>
+    </string-array>
+    <string-array name="food_info_types_whole_grains">
+        <item>Barley</item>
+        <item>Buckwheat</item>
+        <item>Millet</item>
+        <item>Oats</item>
+        <item>Popcorn</item>
+        <item>Quinoa</item>
+        <item>Rye</item>
+        <item>Teff</item>
+        <item>Whole-wheat pasta</item>
+    </string-array>
+    <string-array name="food_info_types_beverages">
+        <item>Vanilla chamomile tea</item>
+        <item>Green tea</item>
+        <item>Hibiscus tea</item>
+        <item>Jasmine tea</item>
+        <item>Lemon balm tea</item>
+        <item>Matcha tea</item>
+        <item>Almond blossom oolong tea</item>
+        <item>Peppermint tea</item>
+        <item>Rooibos tea</item>
+        <item>Water</item>
+        <item>White tea</item>
+    </string-array>
+    <string-array name="food_info_types_exercise">
+        <item>Bicycling</item>
+        <item>Canoeing</item>
+        <item>Dancing</item>
+        <item>Dodgeball</item>
+        <item>Downhill skiing</item>
+        <item>Fencing</item>
+        <item>Hiking</item>
+        <item>Housework</item>
+        <item>Ice-skating</item>
+        <item>Inline skating</item>
+        <item>Juggling</item>
+        <item>Jumping on a trampoline</item>
+        <item>Paddle boating</item>
+        <item>Playing frisbee</item>
+        <item>Roller-skating</item>
+        <item>Shooting baskets</item>
+        <item>Odhrnování sněhu</item>
+        <item>Skateboarding</item>
+        <item>Snorkeling</item>
+        <item>Surfing</item>
+        <item>Rekreační plavání</item>
+        <item>Tennis (doubles)</item>
+        <item>Šlapání vody</item>
+        <item>Svěží chůze</item>
+        <item>Water aerobics</item>
+        <item>Waterskiing</item>
+        <item>Yard work</item>
+        <item>Yoga</item>
+        <item>Backpacking</item>
+        <item>Basketball</item>
+        <item>Bicycling uphill</item>
+        <item>Circuit weight training</item>
+        <item>Cross-country skiing</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Jogging</item>
+        <item>Jumping jacks</item>
+        <item>Jumping rope</item>
+        <item>Lacrosse</item>
+        <item>Push-ups</item>
+        <item>Pull-ups</item>
+        <item>Racquetball</item>
+        <item>Rock climbing</item>
+        <item>Rugby</item>
+        <item>Running</item>
+        <item>Scuba diving</item>
+        <item>Tennis (singles)</item>
+        <item>Soccer</item>
+        <item>Speed skating</item>
+        <item>Squash</item>
+        <item>Step aerobics</item>
+        <item>Swimming laps</item>
+        <item>Walking briskly uphill</item>
+        <item>Water jogging</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_beans_imperial">
+        <item>¼ šálku hummusu nebo luštěninový dip</item>
+        <item>½ šálku vařených luštěnin, hrášek, čočka, tofu nebo tempeh</item>
+        <item>1 šálek čerstvého hrášku nebo naklíčené čočky</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_beans_metric">
+        <item>60 g hummusu nebo luštěninový dip</item>
+        <item>130 g vařených luštěnin, hrášek, čočka, tofu nebo tempeh</item>
+        <item>150 g čerstvého hrášku nebo naklíčené čočky</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_berries_imperial">
+        <item>½ šálku čerstvý nebo zmražený</item>
+        <item>¼ šálku sušeného</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_berries_metric">
+        <item>60 g čerstvý nebo mražený</item>
+        <item>40 g usušený</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_other_fruits_imperial">
+        <item>1 středně velké ovoce</item>
+        <item>1 šálek nakrájeného ovoce</item>
+        <item>¼ šálku sušeného ovoce</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_other_fruits_metric">
+        <item>1 středně velké ovoce</item>
+        <item>120 g nakrájeného ovoce</item>
+        <item>40 g sušeného ovoce</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
+        <item>½ šálku nakrájeného</item>
+        <item>¼ šálku brokolice nebo květáku</item>
+        <item>1 lžíce křenu</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
+        <item>30–80 g nakrájeného</item>
+        <item>12 g brokolice nebo květák</item>
+        <item>1 lžíce křenu</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_greens_imperial">
+        <item>1 šálek syrového</item>
+        <item>½ šálku vařeného</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_greens_metric">
+        <item>60 g syrového</item>
+        <item>90 g vařeného</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_other_vegetables_imperial">
+        <item>1 šálek syrové listové zeleniny</item>
+        <item>½ šálku syrové nebo vařené nelistové zeleniny</item>
+        <item>½ šálku zeleninové šťávy</item>
+        <item>¼ šálku sušených hub</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_other_vegetables_metric">
+        <item>60 g syrové listové zeleniny</item>
+        <item>50 g syrové nebo vařené nelistové zeleniny</item>
+        <item>125 ml zeleninové šťávy</item>
+        <item>7 g sušených hub</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_flaxseeds_imperial">
+        <item>1 lžíce mletého</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_flaxseeds_metric">
+        <item>1 lžíce mletého</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_nuts_imperial">
+        <item>¼ šálku ořechů a semen</item>
+        <item>2 lžíce ořechů nebo ořechového máslo</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_nuts_metric">
+        <item>30 g ořechů a semen</item>
+        <item>2 lžíce ořechů nebo ořechového máslo</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_spices_imperial">
+        <item>¼ lžičky kurkumy</item>
+        <item>Jakékoli další (bez soli) bylinky a koření, které máte rádi</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_spices_metric">
+        <item>¼ lžičky kurkumy</item>
+        <item>Jakékoli další (bez soli) bylinky a koření, které máte rádi</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_whole_grains_imperial">
+        <item>½ šálku horkých obilovin nebo vařených zrn, těstovin nebo kukuřičných zrn</item>
+        <item>1 šálek obilovin</item>
+        <item>1 tortila nebo krajíc chleba</item>
+        <item>½ bagety nebo muffina</item>
+        <item>3 šálky popkornu</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_whole_grains_metric">
+        <item>100 g horkých obilovin nebo vařených zrn, těstovin nebo kukuřičných zrn</item>
+        <item>50 g obilovin</item>
+        <item>1 tortila nebo krajíc chleba</item>
+        <item>½ bagety nebo muffina</item>
+        <item>30 g popkornu</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_beverages_imperial">
+        <item>Jedna sklenice (12 uncí)</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_beverages_metric">
+        <item>Jedna sklenice (350 ml)</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_exercise_imperial">
+        <item>90 minut mírně intenzivního pohybu</item>
+        <item>40 minut intenzivního pohybu</item>
+    </string-array>
+    <string-array name="food_info_serving_sizes_exercise_metric">
+        <item>90 minut mírně intenzivního pohybu</item>
+        <item>40 minut intenzivního pohybu</item>
+    </string-array>
+    <!--
+    NOTE: These strings are used to created the url to take the user to the overall food videos page.
+    These strings are to not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
+    -->
+    <string-array name="food_videos_beans" translatable="false">
+        <item>black-beans</item>
+        <item />
+        <item />
+        <item />
+        <item>chickpeas</item>
+        <item>edamame</item>
+        <item />
+        <item />
+        <item>kidney-beans</item>
+        <item>lentils</item>
+        <item>miso</item>
+        <item>navy-beans</item>
+        <item>pinto-beans</item>
+        <item />
+        <item>split-peas</item>
+        <item>tempeh</item>
+    </string-array>
+    <string-array name="food_videos_berries" translatable="false">
+        <item>acai-berries</item>
+        <item>barberries</item>
+        <item>blackberries</item>
+        <item>blueberries</item>
+        <item>cherries</item>
+        <item>grapes</item>
+        <item>cranberries</item>
+        <item>goji-berries</item>
+        <item />
+        <item />
+        <item>raspberries</item>
+        <item>strawberries</item>
+    </string-array>
+    <string-array name="food_videos_other_fruits" translatable="false">
+        <item>apples</item>
+        <item>apricots</item>
+        <item>avocados</item>
+        <item>bananas</item>
+        <item>cantaloupe</item>
+        <item />
+        <item>dates</item>
+        <item />
+        <item>grapefruit</item>
+        <item />
+        <item>kiwifruit</item>
+        <item>lemons</item>
+        <item>limes</item>
+        <item />
+        <item>mango</item>
+        <item />
+        <item>oranges</item>
+        <item />
+        <item />
+        <item>peaches</item>
+        <item>pears</item>
+        <item />
+        <item>plums</item>
+        <item />
+        <item>pomegranates</item>
+        <item>prunes</item>
+        <item />
+        <item>watermelon</item>
+    </string-array>
+    <string-array name="food_videos_cruciferous_vegetables" translatable="false">
+        <item />
+        <item>bok-choy</item>
+        <item>broccoli</item>
+        <item>brussels-sprouts</item>
+        <item>cabbage</item>
+        <item>cauliflower</item>
+        <item>collard-greens</item>
+        <item />
+        <item>kale</item>
+        <item />
+        <item>mustard-greens</item>
+        <item />
+        <item />
+        <item>watercress</item>
+    </string-array>
+    <string-array name="food_videos_greens" translatable="false">
+        <item />
+        <item>beets</item>
+        <item>collard-greens</item>
+        <item>kale</item>
+        <item />
+        <item>mustard-greens</item>
+        <item />
+        <item>spinach</item>
+        <item>swiss-chard</item>
+        <item />
+    </string-array>
+    <string-array name="food_videos_other_vegetables" translatable="false">
+        <item>artichokes</item>
+        <item>asparagus</item>
+        <item>beets</item>
+        <item>bell-peppers</item>
+        <item>carrots</item>
+        <item>corn</item>
+        <item>garlic</item>
+        <item>mushrooms</item>
+        <item>okra</item>
+        <item>onions</item>
+        <item>potatoes</item>
+        <item>pumpkin</item>
+        <item>sea-vegetables</item>
+        <item />
+        <item>squash</item>
+        <item>sweet-potatoes</item>
+        <item>tomatoes</item>
+        <item>zucchini</item>
+    </string-array>
+    <string-array name="food_videos_nuts" translatable="false">
+        <item>almonds</item>
+        <item>brazil-nuts</item>
+        <item>cashews</item>
+        <item>chia-seeds</item>
+        <item>hazelnuts</item>
+        <item />
+        <item>macadamia-nuts</item>
+        <item>pecans</item>
+        <item>pistachios</item>
+        <item>pumpkin-seeds</item>
+        <item>sesame-seeds</item>
+        <item>sunflower-seeds</item>
+        <item>walnuts</item>
+    </string-array>
+    <string-array name="food_videos_spices" translatable="false">
+        <item>allspice</item>
+        <item>barberries</item>
+        <item>basil</item>
+        <item />
+        <item />
+        <item />
+        <item>cilantro</item>
+        <item>cinnamon</item>
+        <item>cloves</item>
+        <item />
+        <item>cumin</item>
+        <item>curry-powder</item>
+        <item />
+        <item>fenugreek</item>
+        <item>garlic</item>
+        <item>ginger</item>
+        <item />
+        <item />
+        <item>marjoram</item>
+        <item>mustard-powder</item>
+        <item>nutmeg</item>
+        <item>oregano</item>
+        <item />
+        <item>parsley</item>
+        <item>pepper</item>
+        <item>peppermint</item>
+        <item>rosemary</item>
+        <item>saffron</item>
+        <item />
+        <item />
+        <item>turmeric</item>
+        <item />
+    </string-array>
+    <string-array name="food_videos_whole_grains" translatable="false">
+        <item>barley</item>
+        <item>buckwheat</item>
+        <item>millet</item>
+        <item>oats</item>
+        <item>popcorn</item>
+        <item>quinoa</item>
+        <item>rye</item>
+        <item />
+        <item>pasta</item>
+    </string-array>
+    <string-array name="food_videos_beverages" translatable="false">
+        <item>chamomile-tea</item>
+        <item>green-tea</item>
+        <item>hibiscus-tea</item>
+        <item />
+        <item />
+        <item>lemon-balm</item>
+        <item>matcha</item>
+        <item>oolong-tea</item>
+        <item>peppermint</item>
+        <item>rooibos-tea</item>
+        <item>water</item>
+        <item>white-tea</item>
+    </string-array>
+</resources>
+
